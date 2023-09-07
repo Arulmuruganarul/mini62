@@ -1,0 +1,16 @@
+.select {
+  width: 200px;
+  height: 30px;
+  margin-right: 8px;
+  background: #222234;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .select {
+    width: 274px;
+    border-radius: 12px;
+    padding: 0px, 16px, 0px, 16px;
+    gap: 12px;
+  }
+}
